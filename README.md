@@ -1,6 +1,6 @@
 # Skills
 
-Agent Skills for Flutter development, installed and updated with the skills.sh CLI.
+A collection of reusable Agent Skills, installed and updated with the skills.sh CLI.
 
 ## Skills
 
@@ -14,8 +14,8 @@ Agent Skills for Flutter development, installed and updated with the skills.sh C
 # List the skills in this repository
 npx skills add ZhuJHua/skills --list
 
-# Install the selected skill globally for Codex
-npx skills add ZhuJHua/skills --skill flutter-riverpod-architecture -a codex -g
+# Install globally and select the skills and agents to use
+npx skills add ZhuJHua/skills -g
 ```
 
 For a project installation, run the same command from the target project and omit `-g`.
@@ -26,11 +26,11 @@ For a project installation, run the same command from the target project and omi
 # Check installed skills for updates
 npx skills check
 
-# Update this global skill
-npx skills update flutter-riverpod-architecture -g
-
 # Update all global skills
 npx skills update -g
+
+# Update a specific global skill
+npx skills update <skill-name> -g
 ```
 
 Maintainers update `skills/<skill-name>/` and push to the installation source branch. Users then fetch the changes with the update command. Installing from a GitHub source lets the CLI record that source and manage subsequent updates.
