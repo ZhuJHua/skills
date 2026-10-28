@@ -1,4 +1,0 @@
-interface:
-  display_name: "Flutter Riverpod Architecture"
-  short_description: "Riverpod 3 architecture, code generation, async state, and tests"
-  default_prompt: "Use $flutter-riverpod-architecture to design and implement a Riverpod 3 layered architecture for the current Flutter feature."
