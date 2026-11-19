@@ -6,7 +6,7 @@ A collection of reusable Agent Skills, installed and updated with the skills.sh 
 
 | Skill | Description |
 | --- | --- |
-| [claude-codex-collab](skills/claude-codex-collab/SKILL.md) | Claude plans (for the zhujhua-codex plugin), Codex implements (gpt-6.2-astra, medium) and reviews (gpt-6.2-sol; xhigh for deep review) |
+| [claude-codex-collab](skills/claude-codex-collab/SKILL.md) | Claude leads planning, and Codex reviews the plan before implementation, implements scoped tasks, and reviews the code via the zhujhua-codex plugin |
 | [flutter-riverpod-architecture](skills/flutter-riverpod-architecture/SKILL.md) | Riverpod 3 layered architecture, code generation, async state, and testing |
 
 ## Installation
