@@ -7,6 +7,7 @@ A collection of reusable Agent Skills, installed and updated with the skills.sh 
 | Skill | Description |
 | --- | --- |
 | [claude-codex-collab](skills/claude-codex-collab/SKILL.md) | Claude leads planning, and Codex reviews the plan before implementation, implements scoped tasks, and reviews the code via the zhujhua-codex plugin |
+| [gemini-codex-collab](skills/gemini-codex-collab/SKILL.md) | Gemini leads planning in Antigravity, and Codex reviews the plan before implementation, implements scoped tasks, and reviews the code via the codex-plugin-agy plugin |
 | [flutter-riverpod-architecture](skills/flutter-riverpod-architecture/SKILL.md) | Riverpod 3 layered architecture, code generation, async state, and testing |
 
 ## Installation
